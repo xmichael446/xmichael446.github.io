@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About Blog UniLecs
+title: Featured Posts
 permalink: /about
-comments: true
+comments: false
 ---
 
 <div class="row justify-content-center">

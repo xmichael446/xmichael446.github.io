@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  "Let's test spoilers"
-author: sal
-categories: [ Jekyll, tutorial ]
-image: assets/images/12.jpg
+title:  "Как создать телеграм бота?"
+categories: [ tutorial, coding ]
+image: assets/images/tg-bot.png
 featured: true
 hidden: true
 ---
