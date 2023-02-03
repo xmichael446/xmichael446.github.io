@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Разбор книги \"Идеальный программист\""
+title:  "Разбор книги Идеальный программист"
 categories: [ Book reviews, coding ]
 image: assets/images/the-clean-coder.png
 description: "Если ваша ошибка обошлась вашей компании в $10 000? Непрофессионал пожмет плечами, скажет: «Всякое
