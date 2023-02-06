@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Featured Posts
-permalink: /about
-comments: false
+title: About Blog UniLecs
+permalink: /contact
 ---
 
 <div class="row justify-content-center">

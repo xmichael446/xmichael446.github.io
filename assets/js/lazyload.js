@@ -56,7 +56,7 @@
    * @private
    * @param {Node} element to check.
    * @returns {Boolean} true/false.
-   */
+   */ar
   function _elInViewport(el) {
     el = (el.tagName === 'SOURCE') ? el.parentNode : el;
     var rect = el.getBoundingClientRect();
