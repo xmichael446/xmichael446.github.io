@@ -4,6 +4,7 @@ title:  "Головоломка: Счастливые слоны"
 categories: [ puzzles, maths ]
 tags: [numbers]
 type: puzzle
+featured: true
 image: assets/images/happy-elephants.png
 ---
 

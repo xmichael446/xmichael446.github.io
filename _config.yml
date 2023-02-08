@@ -13,6 +13,7 @@ permalink: /:title/
 # Plugins
 plugins:
   - jekyll-paginate
+  - jekyll-paginate-multiple
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
@@ -26,12 +27,14 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
-    
-# Pagination 
-paginate: 6
-paginate_path: /page:num/
-    
-# Other
+
+paginate_multiple:
+  - paginate: 6
+    paginate_path: '/puzzles/:num/'
+    sub_dir: '/puzzles'
+  - paginate: 6
+    paginate_path: '/tasks/:num/'
+    sub_dir: '/tasks'# Other
 markdown: kramdown
 
 kramdown:

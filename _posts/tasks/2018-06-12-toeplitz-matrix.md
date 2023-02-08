@@ -4,6 +4,7 @@ title:  "Что такое матрица Тёплица?"
 categories: [ tasks, coding ]
 tags: [string, matrix]
 type: task
+featured: true
 image: assets/images/toeplitz-matrix.png
 ---
 Дана матрица m x n. Верните true, если матрица является матрицей Тёплица, иначе верните false.

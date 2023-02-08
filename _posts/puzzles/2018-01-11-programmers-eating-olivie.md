@@ -4,6 +4,7 @@ title:  "Головоломка: Привередливые айтишники"
 categories: [ puzzles, maths ]
 tags: [numbers]
 type: puzzle
+featured: true
 image: assets/images/programmers-eating-olivie.png
 ---
 

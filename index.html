@@ -5,8 +5,8 @@ title: Home
 
 {% if page.url == "/" %}
 <div class="mainheading  homecover " style="background-image:url(assets/images/1.jpg);">
-		<h1 class="sitetitle"><span>UniLecs</span></h1>
-		<p class="lead"><span>Some fancy text for the cover up image</span></p>
+    <h1 class="sitetitle"><span>UniLecs</span></h1>
+    <p class="lead"><span>Some fancy text for the cover up image</span></p>
 </div>
 <!-- Featured
 ================================================== -->
@@ -18,7 +18,7 @@ title: Home
 
         {% for post in site.posts %}
 
-        {% if post.featured == true %}
+        {% if post.type == 'featured' %}
 
         {% include featuredbox.html %}
 
@@ -43,11 +43,15 @@ title: Home
 
     <div class="row listrecent">
 
-        {% for post in paginator.posts %}
+        {% for post in site.posts %}
 
         {% if post.type == 'task' %}
 
+        {% if post.featured %}
+
         {% include postbox.html %}
+
+        {% endif %}
 
         {% endif %}
 
@@ -55,8 +59,10 @@ title: Home
 
     </div>
 
-</section>
+    <a href="/tasks">See all</a>
 
+</section>
+<br>
 <section class="recent-posts">
 
     <div class="section-title">
@@ -67,11 +73,15 @@ title: Home
 
     <div class="row listrecent">
 
-        {% for post in paginator.posts %}
+        {% for post in site.posts %}
 
         {% if post.type == 'puzzle' %}
 
+        {% if post.featured %}
+
         {% include postbox.html %}
+
+        {% endif %}
 
         {% endif %}
 
@@ -79,12 +89,7 @@ title: Home
 
     </div>
 
-</section>
+    <a href="/puzzles">See all</a>
 
-<div class="bottompagination">
-    <div class="pointerup"><i class="fa fa-caret-up"></i></div>
-    <span class="navigation" role="navigation">
-    {% include pagination.html %}
-</span>
-</div>
+</section>
 

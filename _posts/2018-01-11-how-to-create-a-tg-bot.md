@@ -3,6 +3,7 @@ layout: post
 title:  "Как создать телеграм бота?"
 categories: [ tutorial, coding ]
 image: assets/images/tg-bot.png
+type: featured
 featured: true
 hidden: true
 ---

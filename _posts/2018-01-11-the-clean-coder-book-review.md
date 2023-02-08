@@ -5,6 +5,7 @@ categories: [ Book reviews, coding ]
 image: assets/images/the-clean-coder.png
 description: "Если ваша ошибка обошлась вашей компании в $10 000? Непрофессионал пожмет плечами, скажет: «Всякое
 бывает». Профессионал должен выписать своей компании чек на $10 000!"
+type: featured
 featured: true
 hidden: true
 ---

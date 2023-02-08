@@ -4,6 +4,7 @@ title:  "Make String Great Again!"
 categories: [ tasks, coding ]
 tags: [string]
 type: task
+featured: true
 image: assets/images/make-string-great-again.png
 ---
 Дана строка из строчных и прописных букв английского алфавита.
