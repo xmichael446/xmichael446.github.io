@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Make String Great Again!"
-categories: [ tasks, coding ]
+categories: [ tasks ]
 tags: [string]
 type: task
 featured: true

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Головоломка: Счастливые слоны"
-categories: [ puzzles, maths ]
+categories: [ puzzles ]
 tags: [numbers]
 type: puzzle
 featured: true

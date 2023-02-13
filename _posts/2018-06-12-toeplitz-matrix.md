@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Что такое матрица Тёплица?"
-categories: [ tasks, coding ]
+categories: [ tasks ]
 tags: [string, matrix]
 type: task
 featured: true

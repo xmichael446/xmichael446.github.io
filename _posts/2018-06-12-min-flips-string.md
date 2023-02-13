@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Что такое флип строки и как его правильно реализовать?"
-categories: [ tasks, coding ]
+categories: [ tasks ]
 tags: [string]
 type: task
 featured: true

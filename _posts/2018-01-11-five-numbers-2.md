@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Головоломка: Пять Чисел"
-categories: [ puzzles, maths ]
+categories: [ puzzles ]
 tags: [numbers]
 type: puzzle
 image: assets/images/five-numbers.png

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Головоломка: Привередливые айтишники"
-categories: [ puzzles, maths ]
+categories: [ puzzles ]
 tags: [numbers]
 type: puzzle
 featured: true

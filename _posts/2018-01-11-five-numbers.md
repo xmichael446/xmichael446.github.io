@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Головоломка: Пять Чисел"
-categories: [ puzzles, maths ]
+categories: [ puzzles ]
 tags: [numbers]
 type: puzzle
+featured: true
 image: assets/images/five-numbers.png
 ---
 Использовав каждую из цифр от 0 до 9 ровно по разу, запишите 5 ненулевых чисел так, чтобы каждое делилось на предыдущее.
