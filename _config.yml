@@ -12,7 +12,6 @@ permalink: /:title/
 
 # Plugins
 plugins:
-  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
@@ -38,12 +37,5 @@ kramdown:
 
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
-
-pagination:
-  enabled: true
-  per_page: 6
-  permalink: '/page/:num/'
-  title: ' - page :num'
-  limit: 0
 
 exclude: [ changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock ]
